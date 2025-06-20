@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "pry"
   s.add_development_dependency "minitest"
   s.add_development_dependency "rspec", "~> 3.5"
-  s.add_development_dependency "rake", "~> 10"
+  s.add_development_dependency "rake", ">= 12.3.3"
   s.add_development_dependency "rufo", "~> 0.3.0"
   s.files = Dir["{bin,lib}/**/*"] + %w(miasma.gemspec README.md CHANGELOG.md LICENSE)
 end
